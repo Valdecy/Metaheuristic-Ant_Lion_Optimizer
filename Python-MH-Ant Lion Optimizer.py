@@ -14,7 +14,6 @@
 # Required Libraries
 import pandas as pd
 import numpy  as np
-import math
 import random
 import os
 
@@ -149,10 +148,6 @@ def update_ants(population, antlions, count, iterations, min_values = [-5,-5], m
                 population.iloc[i,j] = min_values[j]
           
         population.iloc[i,-1] = target_function(population.iloc[i,0:population.shape[1]-1])
-        
-        #if(population.iloc[i,-1] < antlions.iloc[ant_lion,-1]):
-            #for j in range(0, population.shape[1]):
-                #antlions.iloc[ant_lion,j] = population.iloc[i,j]
                   
         return population, antlions
 
@@ -191,13 +186,3 @@ def target_function (variables_values = [0, 0]):
     return func_value
 
 alo = ant_lion_optimizer(colony_size = 30, min_values = [-5,-5], max_values = [5,5], iterations = 250)
-
-# Function to be Minimized (Rosenbrocks Valley). Solution ->  f(x) = 0; xi = 1
-def target_function(variables_values = [0, 0]):
-    func_value = 0
-    last_x = variables_values[0]
-    for i in range(1, len(variables_values)):
-        func_value = func_value + (100 * math.pow((variables_values[i] - math.pow(last_x, 2)), 2)) + math.pow(1 - last_x, 2)
-    return func_value
-
-alo = ant_lion_optimizer(colony_size = 50, min_values = [-5,-5,-5,-5], max_values = [5,5,5,5], iterations = 5000)
