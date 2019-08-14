@@ -154,7 +154,7 @@ def ant_lion_optimizer(colony_size = 5, min_values = [-5,-5], max_values = [5,5]
 
 ######################## Part 1 - Usage ####################################
 
-# Solution ->  f(x) = -1; xi = 3.14
+# Function to be Minimized (Easom). Solution ->  f(x) = -1; xi = 3.14
 def easom(variables_values = [0, 0]):
     return -math.cos(variables_values[0])*math.cos(variables_values[1])*math.exp(-(variables_values[0] - math.pi)**2 - (variables_values[1] - math.pi)**2)
 
