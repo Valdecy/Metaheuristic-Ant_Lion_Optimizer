@@ -13,7 +13,6 @@ Ant Lion Optimizer to Minimize Functions with Continuous Variables. The function
 * target_function = Function to be minimized.
 
 Easom Function Minimization:
-Kursawe Function Example:
 <p align="center"> 
 <img src="https://github.com/Valdecy/Metaheuristic-Ant_Lion_Optimizer/blob/master/Python-MH-Ant%20Lion%20Optimizer.gif">
 </p
