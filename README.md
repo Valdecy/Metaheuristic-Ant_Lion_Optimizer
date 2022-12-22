@@ -50,6 +50,12 @@ Try online in the **Colab**  my new library - [pyMetaheuristic](https://github.c
 - Sine Cosine Algorithm ([ Colab Demo ](https://colab.research.google.com/drive/1WjbCiks_E2s1qw9l9OkZ4mRQPQuWWYzs?usp=sharing))
 - Whale Optimization Algorithm ([ Colab Demo ](https://colab.research.google.com/drive/1Nt52dS0AsXm7RHVIt3K0DAaC1i8zKUUC?usp=sharing))
 
+# Multiobjective Optimization or Many Objectives Optimization
+For Multiobjective Optimization or Many Objectives Optimization try [pyMultiobjective](https://github.com/Valdecy/pyMultiobjective)
+
+# TSP (Travelling Salesman Problem)
+For Travelling Salesman Problems try [pyCombinatorial](https://github.com/Valdecy/pyCombinatorial)
+
 Easom Function Minimization:
 <p align="center"> 
 <img src="https://github.com/Valdecy/Metaheuristic-Ant_Lion_Optimizer/blob/master/Python-MH-Ant%20Lion%20Optimizer.gif">
